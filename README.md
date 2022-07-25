@@ -7,8 +7,14 @@ Daca selectam Buy, vom incepe procesul de cumparare, unde trebuie ales ce dealer
 
 !!! Tipul de anvelopa este "normal" sau "run-flat", iar sezonul pentru care se cumpara este "summer" sau "winter".
 
-Alegerea masinii: ![image](https://user-images.githubusercontent.com/62211568/180800096-a4c4cd43-471e-4c35-9aca-d1c1fccd7635.png)
+Alegerea masinii:
 
-Filtrari: ![image](https://user-images.githubusercontent.com/62211568/180800502-8b2f8cee-ccfb-4ec1-8e3b-3d5ac26a61ef.png)
+![image](https://user-images.githubusercontent.com/62211568/180800096-a4c4cd43-471e-4c35-9aca-d1c1fccd7635.png)
 
-Pretul final al anvelopelor: ![image](https://user-images.githubusercontent.com/62211568/180800739-bb51f72d-f046-4e6e-8419-6b369ba68936.png)
+Filtrari:
+
+![image](https://user-images.githubusercontent.com/62211568/180800502-8b2f8cee-ccfb-4ec1-8e3b-3d5ac26a61ef.png)
+
+Pretul final al anvelopelor:
+
+![image](https://user-images.githubusercontent.com/62211568/180800739-bb51f72d-f046-4e6e-8419-6b369ba68936.png)
