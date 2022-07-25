@@ -234,7 +234,7 @@ public class Ui {
     }
 
     public void buyTires() throws Exception {
-        System.out.println("Who DEALER you are?");
+        System.out.println("What DEALER are you?");
         this.service.changeFilename("src/files/Dealer.csv");
         showDealer();
         BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
@@ -254,7 +254,7 @@ public class Ui {
             System.out.println(car.toString());
         }
 
-        System.out.println("Who car want to buy tires?");
+        System.out.println("For which car do you want to buy tires?");
         String newOption = scanner.readLine();
 
         cumparare(listC, newOption, dealer);
@@ -265,7 +265,7 @@ public class Ui {
         for(Car car: listC) {
             if(car.getId() == Integer.parseInt(newOption)) {
                 System.out.println("Size tire: " + car.getSizeTire());
-                System.out.println("TIRE in stock with "+car.getSizeTire()+" dimension: ");
+                System.out.println("TIRES in stock with "+car.getSizeTire()+" dimension: ");
                 List<Object> list = new ArrayList<>(this.service.showElement("tire"));
                 // filter tire
                 filterBySizeTire(car, list);
@@ -282,9 +282,9 @@ public class Ui {
 
                 filterBySizeTireAndTypeAndSeason(car, list, type,season);
 
-                System.out.println("Who tires want to buy for "+car.getBrand()+" "+car.getModel()+"?");
+                System.out.println("Which tire do you want to buy for "+car.getBrand()+" "+car.getModel()+"?");
                 String o = scanner.readLine();
-                System.out.println("How much tires?");
+                System.out.println("How many tires?");
                 int nr = Integer.parseInt(scanner.readLine());
                 String price="", priceDisc="";
 
